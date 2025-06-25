@@ -4,8 +4,8 @@
 }
 
 body{
-  background-color: rgb(229, 243, 243);
-   background-image: url("https://img.freepik.com/fotos-gratis/superficie-de-tabuas-brancas_23-2147625787.jpg?semt=ais_hybrid&w=740");
+  background-color: rgb(237, 247, 247);
+  /*background-image: url("https://img.freepik.com/fotos-gratis/superficie-de-tabuas-brancas_23-2147625787.jpg?semt=ais_hybrid&w=740");*/
   background-repeat: repeat;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -21,7 +21,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(209, 231, 209);
+  background-color: rgb(145, 202, 145);
   padding: 5px 5px;
   margin: 0%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -63,7 +63,9 @@ h3{
   padding: 20px 20px;
   background-color: rgb(252, 244, 233);
   border-radius: 20px;
- 
+  background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/BloSxjK/videoblocks-animated-crinkled-paper-texture_rvyrkqunj_thumbnail-1080_14.png");
+  background-repeat: no-repeat;
+
   align-items: center;
 }
 
@@ -75,4 +77,12 @@ p{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   
   line-height: 25px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px 3px;
+  background-color: DarkSalmon;
+  color: white;
+  margin-top: 35px;
 }
