@@ -4,8 +4,9 @@
 }
 
 body{
-  background-color: rgb(237, 247, 247);
-  /*background-image: url("https://img.freepik.com/fotos-gratis/superficie-de-tabuas-brancas_23-2147625787.jpg?semt=ais_hybrid&w=740");*/
+  background-color: rgb(241, 222, 222);
+  background-image: url("https://media.istockphoto.com/id/481009054/vector/vector-background-of-white-wooden-texture.jpg?s=612x612&w=0&k=20&c=xYiVu3c2aPpeaowGs3zXgd3vnVaoRGUAOb03B2vkSY0=");
+  
   background-repeat: repeat;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -25,6 +26,7 @@ img{
 .logo-texto{
   margin-left: 45px;
   display: flex;
+  color: aliceblue;
 }
 
 header{
@@ -34,6 +36,7 @@ header{
   justify-content: space-around;
   align-items: center;
   padding: 10px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 img{
@@ -59,7 +62,7 @@ img{
 }
 
 .menu li:hover{
-  transform: scale(1.15);
+  transform: scale(1.135);
 }
 
 .menu li a{
@@ -165,11 +168,11 @@ ul li ul li {
 ul li ul li a {display:block !important;} 
 
 .descritores li a{
-  background-color: rgba(58, 73, 85, 0.452);
+  background-color: rgba(49, 56, 75, 0.452);
   color: white;
   
 }
 
 .descritores li a:hover{
-  background-color: rgba(58, 73, 85, 0.541);
+  background-color: rgba(49, 56, 75, 0.78);
 }
