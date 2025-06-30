@@ -9,6 +9,7 @@ body{
   
   background-repeat: repeat;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 img{
@@ -175,4 +176,28 @@ ul li ul li a {display:block !important;}
 
 .descritores li a:hover{
   background-color: rgba(49, 56, 75, 0.78);
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0e2257; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0e2257; 
 }
