@@ -5,7 +5,7 @@
 
 body{
   
-  background-image: src("whitewood.jpg");
+  background-image: background-image: url(whitewood.jpg);;
   
   background-repeat: repeat;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
