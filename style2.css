@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  
+  background-image: url(whitewood.jpg);
+  
+  background-repeat: repeat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo-texto{
+  margin-left: 45px;
+  display: flex;
+  color: aliceblue;
+}
+
+header{
+  margin: 0px;
+  background-color: rgb(26, 68, 102);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img{
+    width: 200px;
+}
+
+.logo-imagem{
+  width: 100px;
+  display: flex;
+  padding: 5px 5px;
+}
+
+#logo{
+  width: 140px;
+  display: flex;
+}
+
+.menu li{
+  display: inline-block;
+  margin: 0 10px;
+  transform: scale(1);
+  
+}
+
+.menu li:hover{
+  transform: scale(1.135);
+}
+
+.menu li a{
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(216, 216, 216);
+  text-transform: uppercase;
+  padding: 10px 15px;
+  background-color: rgba(31, 30, 30, 0.397);
+  border-radius: 10px;
+}
+
+.menu li a:hover{
+  background-color: rgba(31, 30, 30, 0.466);
+  border-radius: 10px;
+}
+
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 100px;
+  display: none;
+}
+ul li ul li { 
+  padding: 4px;
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+
+.descritores li a{
+  background-color: rgba(49, 56, 75, 0.452);
+  color: white;
+  
+}
+
+.descritores li a:hover{
+  background-color: rgba(49, 56, 75, 0.78);
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0e2257; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0e2257; 
+}
+
+
+.app{
+    background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/BloSxjK/videoblocks-animated-crinkled-paper-texture_rvyrkqunj_thumbnail-1080_14.png");
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 30px;
+}
+
+.app h1{
+    font-weight: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz{
+    padding: 20px 0;
+}
+
+.quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+
+.btn{
+    background-image: url(whitewood.jpg);
+    color: #222;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn{
+    background: #0e2257;
+    color: #fff;
+    font-weight: 150;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer; 
+    display: none;
+}
+
+.correct{
+    background: rgb(119, 175, 119);
+
+}
+
+.incorrect{
+    background: rgb(204, 128, 128);
+}

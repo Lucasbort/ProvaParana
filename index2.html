@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="parana.ico" type="image/x-icon">
+    <script src="script.js"></script>
     <title>Descritor 13</title>
 </head>
 <body>
@@ -28,6 +29,7 @@
     </li>
   </ul>
         <li><a href="index5.html">Creditos</a></li>
+        <li><a href="Quizz.html">Quiz</a></li>
         </ul>
         </div>
 
@@ -72,9 +74,31 @@
 <br>Cuidado com perguntas que exigem descobrir o valor original após um desconto.</p>
     </div>
 
+    
 <div class="video2">
     <h1>Veja abaixo um video sobre Porcentagem do Sandro Curio</h1>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/azedx0uou64?si=dN4J9wRGBQVEmpK5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div class="pergunta01">
+  <form id="quizForm">
+  <p>Ana foi ao shopping e viu uma loja com a seguinte promoção:
+<br>“Toda a loja com 25% de desconto!”
+<br>Ela se interessou por três itens:
+<br>Um tênis que custava R$ 280,00
+<br>Uma jaqueta que custava R$ 180,00
+<br>Uma mochila que custava R$ 120,00
+<br>Quanto ela economizou no total com a promoção?</p>
+
+  <label><input type="radio" name="capital" value="269" id="resp1">269</label><br>
+  <label><input type="radio" name="capital" value="200" id="resp2">200</label><br>
+  <label><input type="radio" name="capital" value="145" id="resp3">145</label><br>
+  <label><input type="radio" name="capital" value="400" id="resp4">400</label><br>
+  <button type="button" onclick="verificarResposta1()" id="btn">Verificar</button>
+  
+  <p id="resultado"></p>
+
+</form>
 </div>
 
 </body>

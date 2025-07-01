@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -29,7 +30,7 @@ img{
   float:left ;
   clip-path: circle(45%);
   shape-outside: circle(50%);
-  width: 500px;
+  width: 300px;
 }
 
 .img3{
@@ -229,3 +230,34 @@ ul li ul li a {display:block !important;}
   
   padding: 30px;
 }
+
+
+.pergunta01{
+  background-color: antiquewhite;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  padding: 30px;
+}
+
+.pergunta01 h1{
+  font-weight: 600;
+  color: #0e2257;
+  border-bottom: 1 solid #333;
+  padding-bottom: 30px;
+}
+
+.respostas{
+  color: white;
+}
+
+#quizform{
+  padding: 2px;
+}
+
+label{
+  background-color: gray;
+  border-radius: 3px;
+  padding: 2px 2px;
+}
+
