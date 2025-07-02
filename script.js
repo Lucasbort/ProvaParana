@@ -20,10 +20,10 @@ const questions= [
   {
     question: "Lucas tem 15 anos e seu irmão mais novo, Rafael, tem 9 anos. Pergunta: Qual é a razão entre a idade de Lucas e a de Rafael? Escreva a razão na forma de fração e na forma mais simples possível.",
     answers: [
-      { id: 1, text:"3/5", correct:true},
+      { id: 1, text:"3/5", correct:false},
       { id: 2, text:"3/2", correct:false},
       { id: 3, text:"5", correct:false},
-      { id: 4, text:"5/3", correct:false},
+      { id: 4, text:"5/3", correct:true},
     ],
   },
   {
